@@ -127,15 +127,15 @@ extension CharacterListViewModel {
                 }
             }
         }
-        filterCharacters(with: searchText)
+        filteredCharacters = characterList
     }
     
     func loadMorePages() {
         guard viewState != .loading,
-              currentPage < totalPageCount else {
+              currentPage < totalPageCount,
+              searchText.isEmpty else {
             return
         }
-        
         currentPage += 1
         fetchRickAndMorty()
     }
@@ -169,11 +169,21 @@ extension CharacterListViewModel {
     }
     
     private func cacheImage(_ imageData: Data, for urlString: String) {
-        cacheManager.setImageCache(url: urlString.asNSString, data: imageData)
+        do {
+            try cacheManager.setImageCache(url: urlString.asNSString, data: imageData)
+        } catch {
+            print(error)
+        }
     }
     
     private func retrieveImageFromCache(_ urlString: String) -> Data? {
-        return cacheManager.retrieveImageFromCache(with: urlString.asNSString)
+        do {
+            return try cacheManager.retrieveImageFromCache(with: urlString.asNSString)
+        } catch {
+            print(error)
+        }
+        
+        return nil
     }
     
 }

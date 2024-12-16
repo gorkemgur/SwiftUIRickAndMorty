@@ -26,7 +26,8 @@ struct CharacterListView: View {
     private var contentView: some View {
         switch viewModel.viewState {
         case .idle:
-            Color.clear.onAppear { viewModel.fetchRickAndMorty()
+            Color.clear.onAppear { 
+                viewModel.fetchRickAndMorty()
             }
             
         case .loading:
