@@ -8,13 +8,14 @@
 import Foundation
 
 protocol CacheService {
-    func setImageCache(url: NSString, data: Data)
-    func retrieveImageFromCache(with url: NSString) -> Data?
-    func clearAllCache()
+    func setImageCache(url: NSString, data: Data) throws
+    func retrieveImageFromCache(with url: NSString) throws -> Data?
+    func clearAllCache() throws
 }
 
 final class CacheManager: CacheService {
     private let cache = NSCache<NSString, NSData>()
+    private var cachedUrls: Set<NSString> = []
     
     init(
         countLimit: Int = 100,
@@ -24,15 +25,37 @@ final class CacheManager: CacheService {
         self.cache.totalCostLimit = totalCostLimit
     }
     
-    func setImageCache(url: NSString, data: Data) {
-        self.cache.setObject(data.asNSData, forKey: url)
+    func setImageCache(url: NSString, data: Data) throws {
+        guard data.count > 0 else {
+            throw CacheError.invalidData
+        }
+        
+        if !cachedUrls.contains(url) && cachedUrls.count >= cache.countLimit {
+            throw CacheError.cacheLimitExceeded
+        }
+        
+        cache.setObject(data.asNSData, forKey: url)
+        cachedUrls.insert(url)
     }
     
-    func retrieveImageFromCache(with url: NSString) -> Data? {
-        cache.object(forKey: url)?.asData
+    func retrieveImageFromCache(with url: NSString) throws -> Data? {
+        guard let cachedData = cache.object(forKey: url)?.asData else {
+            throw CacheError.itemNotFound
+        }
+        
+        return cachedData
     }
     
-    func clearAllCache() {
+    func clearAllCache() throws {
         cache.removeAllObjects()
+        cachedUrls.removeAll()
     }
+}
+
+
+enum CacheError: Error {
+    case invalidData
+    case cacheLimitExceeded
+    case itemNotFound
+    case clearCacheError
 }

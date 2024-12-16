@@ -10,7 +10,6 @@
 		EEB699F72D09CF7200EEA598 /* SwiftUIRickAndMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB699F62D09CF7200EEA598 /* SwiftUIRickAndMortyApp.swift */; };
 		EEB699FB2D09CF7300EEA598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB699FA2D09CF7300EEA598 /* Assets.xcassets */; };
 		EEB699FE2D09CF7300EEA598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB699FD2D09CF7300EEA598 /* Preview Assets.xcassets */; };
-		EEB69A082D09CF7300EEA598 /* SwiftUIRickAndMortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A072D09CF7300EEA598 /* SwiftUIRickAndMortyTests.swift */; };
 		EEB69A212D09CF8500EEA598 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A202D09CF8500EEA598 /* NetworkManager.swift */; };
 		EEB69A232D09CFDF00EEA598 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A222D09CFDF00EEA598 /* Endpoint.swift */; };
 		EEB69A252D09D17F00EEA598 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A242D09D17F00EEA598 /* NetworkError.swift */; };
@@ -24,6 +23,16 @@
 		EEB69A372D09DB6600EEA598 /* CharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A362D09DB6600EEA598 /* CharacterCell.swift */; };
 		EEB69A392D09DB8600EEA598 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A382D09DB8600EEA598 /* Character.swift */; };
 		EEB69A3B2D09E2F200EEA598 /* ImageDownloaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A3A2D09E2F200EEA598 /* ImageDownloaderManager.swift */; };
+		EEB69A492D0DCB0A00EEA598 /* MockCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A482D0DCB0A00EEA598 /* MockCacheManager.swift */; };
+		EEB69A4B2D0DCB1100EEA598 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A4A2D0DCB1100EEA598 /* MockNetworkManager.swift */; };
+		EEB69A4D2D0DCD8900EEA598 /* MockImageDownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A4C2D0DCD8900EEA598 /* MockImageDownloadService.swift */; };
+		EEB69A4F2D0DCF5600EEA598 /* CharacterListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A4E2D0DCF5600EEA598 /* CharacterListViewModelTest.swift */; };
+		EEB69A542D0DD01A00EEA598 /* CacheManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A532D0DD01A00EEA598 /* CacheManagerTests.swift */; };
+		EEB69A582D0DD61400EEA598 /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A572D0DD61400EEA598 /* MockURLSession.swift */; };
+		EEB69A5C2D0DEF9500EEA598 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A5B2D0DEF9500EEA598 /* NetworkManagerTests.swift */; };
+		EEB69A5D2D0E46EA00EEA598 /* ImageDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB69A552D0DD38B00EEA598 /* ImageDownloaderTests.swift */; };
+		EEB69A602D0E5B5E00EEA598 /* sampleJson.json in Resources */ = {isa = PBXBuildFile; fileRef = EEB69A5F2D0E5B5E00EEA598 /* sampleJson.json */; };
+		EEB69A642D0E5F2900EEA598 /* corruptedSampleJson.json in Resources */ = {isa = PBXBuildFile; fileRef = EEB69A632D0E5F2900EEA598 /* corruptedSampleJson.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +58,6 @@
 		EEB699FA2D09CF7300EEA598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEB699FD2D09CF7300EEA598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EEB69A032D09CF7300EEA598 /* SwiftUIRickAndMortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIRickAndMortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEB69A072D09CF7300EEA598 /* SwiftUIRickAndMortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRickAndMortyTests.swift; sourceTree = "<group>"; };
 		EEB69A0D2D09CF7300EEA598 /* SwiftUIRickAndMortyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIRickAndMortyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB69A202D09CF8500EEA598 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EEB69A222D09CFDF00EEA598 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
@@ -64,6 +72,16 @@
 		EEB69A362D09DB6600EEA598 /* CharacterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCell.swift; sourceTree = "<group>"; };
 		EEB69A382D09DB8600EEA598 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		EEB69A3A2D09E2F200EEA598 /* ImageDownloaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderManager.swift; sourceTree = "<group>"; };
+		EEB69A482D0DCB0A00EEA598 /* MockCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCacheManager.swift; sourceTree = "<group>"; };
+		EEB69A4A2D0DCB1100EEA598 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		EEB69A4C2D0DCD8900EEA598 /* MockImageDownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockImageDownloadService.swift; sourceTree = "<group>"; };
+		EEB69A4E2D0DCF5600EEA598 /* CharacterListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModelTest.swift; sourceTree = "<group>"; };
+		EEB69A532D0DD01A00EEA598 /* CacheManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManagerTests.swift; sourceTree = "<group>"; };
+		EEB69A552D0DD38B00EEA598 /* ImageDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderTests.swift; sourceTree = "<group>"; };
+		EEB69A572D0DD61400EEA598 /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
+		EEB69A5B2D0DEF9500EEA598 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		EEB69A5F2D0E5B5E00EEA598 /* sampleJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sampleJson.json; sourceTree = "<group>"; };
+		EEB69A632D0E5F2900EEA598 /* corruptedSampleJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = corruptedSampleJson.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +152,12 @@
 		EEB69A062D09CF7300EEA598 /* SwiftUIRickAndMortyTests */ = {
 			isa = PBXGroup;
 			children = (
-				EEB69A072D09CF7300EEA598 /* SwiftUIRickAndMortyTests.swift */,
+				EEB69A5E2D0E5B3F00EEA598 /* MockData */,
+				EEB69A5A2D0DEF8300EEA598 /* NetworkManagerTest */,
+				EEB69A522D0DD00200EEA598 /* CharacterListViewModelTest */,
+				EEB69A512D0DCFFD00EEA598 /* ImageDownloaderTest */,
+				EEB69A502D0DCFF800EEA598 /* CacheManagerTest */,
+				EEB69A472D0DCAFE00EEA598 /* Mock Classes */,
 			);
 			path = SwiftUIRickAndMortyTests;
 			sourceTree = "<group>";
@@ -219,6 +242,58 @@
 				EEB69A3A2D09E2F200EEA598 /* ImageDownloaderManager.swift */,
 			);
 			path = ImageDownloadManager;
+			sourceTree = "<group>";
+		};
+		EEB69A472D0DCAFE00EEA598 /* Mock Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EEB69A482D0DCB0A00EEA598 /* MockCacheManager.swift */,
+				EEB69A4A2D0DCB1100EEA598 /* MockNetworkManager.swift */,
+				EEB69A4C2D0DCD8900EEA598 /* MockImageDownloadService.swift */,
+				EEB69A572D0DD61400EEA598 /* MockURLSession.swift */,
+			);
+			path = "Mock Classes";
+			sourceTree = "<group>";
+		};
+		EEB69A502D0DCFF800EEA598 /* CacheManagerTest */ = {
+			isa = PBXGroup;
+			children = (
+				EEB69A532D0DD01A00EEA598 /* CacheManagerTests.swift */,
+			);
+			path = CacheManagerTest;
+			sourceTree = "<group>";
+		};
+		EEB69A512D0DCFFD00EEA598 /* ImageDownloaderTest */ = {
+			isa = PBXGroup;
+			children = (
+				EEB69A552D0DD38B00EEA598 /* ImageDownloaderTests.swift */,
+			);
+			path = ImageDownloaderTest;
+			sourceTree = "<group>";
+		};
+		EEB69A522D0DD00200EEA598 /* CharacterListViewModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				EEB69A4E2D0DCF5600EEA598 /* CharacterListViewModelTest.swift */,
+			);
+			path = CharacterListViewModelTest;
+			sourceTree = "<group>";
+		};
+		EEB69A5A2D0DEF8300EEA598 /* NetworkManagerTest */ = {
+			isa = PBXGroup;
+			children = (
+				EEB69A5B2D0DEF9500EEA598 /* NetworkManagerTests.swift */,
+			);
+			path = NetworkManagerTest;
+			sourceTree = "<group>";
+		};
+		EEB69A5E2D0E5B3F00EEA598 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				EEB69A5F2D0E5B5E00EEA598 /* sampleJson.json */,
+				EEB69A632D0E5F2900EEA598 /* corruptedSampleJson.json */,
+			);
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +409,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB69A642D0E5F2900EEA598 /* corruptedSampleJson.json in Resources */,
+				EEB69A602D0E5B5E00EEA598 /* sampleJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +449,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEB69A082D09CF7300EEA598 /* SwiftUIRickAndMortyTests.swift in Sources */,
+				EEB69A5C2D0DEF9500EEA598 /* NetworkManagerTests.swift in Sources */,
+				EEB69A582D0DD61400EEA598 /* MockURLSession.swift in Sources */,
+				EEB69A542D0DD01A00EEA598 /* CacheManagerTests.swift in Sources */,
+				EEB69A4F2D0DCF5600EEA598 /* CharacterListViewModelTest.swift in Sources */,
+				EEB69A4B2D0DCB1100EEA598 /* MockNetworkManager.swift in Sources */,
+				EEB69A492D0DCB0A00EEA598 /* MockCacheManager.swift in Sources */,
+				EEB69A4D2D0DCD8900EEA598 /* MockImageDownloadService.swift in Sources */,
+				EEB69A5D2D0E46EA00EEA598 /* ImageDownloaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,450 @@
+{
+  "info": {
+    "count": 826,
+    "pages": 42,
+    "next": "https://rickandmortyapi.com/api/character/?page=20",
+    "prev": "https://rickandmortyapi.com/api/character/?page=18"
+  },
+  "results": [
+    {
+      "id": 361,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/361.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 362,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/362.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 363,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/363.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 364,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/364.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 365,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/365.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 366,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/366.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 367,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/367.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 368,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/368.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 369,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/369.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 370,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/370.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 371,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/371.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 372,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/372.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 373,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/373.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 374,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/374.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 375,
+      "name": "Bill Kill",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/375.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 376,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/376.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 377,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/377.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 378,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/378.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 379,
+      "name": "Toxic Rick",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/379.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    },
+    {
+      "id": 380,
+      "name": "Toxic Bill",
+      "status": "Dead",
+      "species": "Humanoid",
+      "type": "Rick's Toxic Side",
+      "gender": "Male",
+      "origin": {
+        "name": "Alien Spa",
+        "url": "https://rickandmortyapi.com/api/location/64"
+      },
+      "location": {
+        "name": "Earth",
+        "url": "https://rickandmortyapi.com/api/location/20"
+      },
+      "image": "https://rickandmortyapi.com/api/character/avatar/380.jpeg",
+      "episode": [
+        "https://rickandmortyapi.com/api/episode/27"
+      ],
+      "url": "https://rickandmortyapi.com/api/character/361",
+      "created": "2018-01-10T18:20:41.703Z"
+    }
+  ]
+}
